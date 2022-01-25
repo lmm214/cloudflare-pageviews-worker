@@ -2,19 +2,14 @@ name = "willinwang-pageviews"
 type = "javascript"
 workers_dev = true
 compatibility_date = "2021-12-29"
-# Replace with yours, 替换成你的配置
-account_id = "96f10109ea482311a0fe5e42d6ea35f7"
-# 如需测试环境，创建一个新的 KV Namespace 并修改下面的配置
-# kv_namespaces = [
-#          { binding = "VIEWS", id = "0484e41a526a4d4193dfc5677210a778" }
-# ]
+account_id = "d80bb76f219708c3eed13ab64d767594"
 
 [env.production]
 workers_dev = false
-zone_id = "dc5443e1bf78f4f52ee37affba3b04bf"
-route = "pageviews.willin.wang/*"
+zone_id = "27f380ccfeb8fe91c829111102329afb"
+route = "pageviews.edui123.com/*"
 kv_namespaces = [
-         { binding = "VIEWS", id = "0484e41a526a4d4193dfc5677210a778" }
+         { binding = "VIEWS", id = "32b30482817a494fa84852f123b26103" }
 ]
 
 [build]
